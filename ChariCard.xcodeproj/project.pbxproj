@@ -11,6 +11,8 @@
 		400DB82D2A39F4D5009C467E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400DB82C2A39F4D5009C467E /* ContentView.swift */; };
 		400DB82F2A39F4D6009C467E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400DB82E2A39F4D6009C467E /* Assets.xcassets */; };
 		400DB8322A39F4D6009C467E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400DB8312A39F4D6009C467E /* Preview Assets.xcassets */; };
+		400DB83E2A39FBA1009C467E /* Handlee-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 400DB83D2A39FBA1009C467E /* Handlee-Regular.ttf */; };
+		400DB8422A3A0234009C467E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400DB8412A3A0234009C467E /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		400DB82C2A39F4D5009C467E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		400DB82E2A39F4D6009C467E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		400DB8312A39F4D6009C467E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		400DB83C2A39FA79009C467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		400DB83D2A39FBA1009C467E /* Handlee-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Handlee-Regular.ttf"; sourceTree = "<group>"; };
+		400DB8412A3A0234009C467E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		400DB8292A39F4D5009C467E /* ChariCard */ = {
 			isa = PBXGroup;
 			children = (
+				400DB83C2A39FA79009C467E /* Info.plist */,
+				400DB8382A39F8D6009C467E /* fonts */,
 				400DB82A2A39F4D5009C467E /* ChariCardApp.swift */,
 				400DB82C2A39F4D5009C467E /* ContentView.swift */,
+				400DB8412A3A0234009C467E /* InfoView.swift */,
 				400DB82E2A39F4D6009C467E /* Assets.xcassets */,
 				400DB8302A39F4D6009C467E /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				400DB8312A39F4D6009C467E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		400DB8382A39F8D6009C467E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				400DB83D2A39FBA1009C467E /* Handlee-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				400DB8322A39F4D6009C467E /* Preview Assets.xcassets in Resources */,
+				400DB83E2A39FBA1009C467E /* Handlee-Regular.ttf in Resources */,
 				400DB82F2A39F4D6009C467E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				400DB82D2A39F4D5009C467E /* ContentView.swift in Sources */,
+				400DB8422A3A0234009C467E /* InfoView.swift in Sources */,
 				400DB82B2A39F4D5009C467E /* ChariCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +287,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ChariCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChariCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ChariCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChariCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
